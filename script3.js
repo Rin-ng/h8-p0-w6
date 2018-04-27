@@ -69,7 +69,7 @@ function validate(){
   }
 
   else if (email1 !== "" && email1 !== undefined){
-    if(/^(?=.*[@,.]).+$/.test(email1) !== true){
+    if(/^(?=.*[@.]).+$/.test(email1) !== true){
       alert("Please enter a valid email address!");
       isValid = false;
       return false;
