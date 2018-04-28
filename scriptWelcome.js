@@ -74,7 +74,7 @@ function random(){
       result1.style.color = "blue";
       result1.style.fontWeight = "bold";
       document.getElementById("bet").value = "";
-      text =  2*bet;
+      text += (2*bet);
       document.getElementById("money").innerHTML = text;
       document.getElementById("resultCont").style.borderStyle = "double";
     }
