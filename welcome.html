@@ -1,0 +1,52 @@
+<DOCTYPE html>
+  <html>
+  <head></head>
+  <body>
+    <link href="./styleWelcome.css" type="text/css" rel="stylesheet">
+    <h1 id="welcomeUser"></h1>
+    <h3> Welcome to a members-only random number betting game! </h3>
+    <p id="intro"> Each day you will be given $100 to play (or you can re-log in to abuse the loop in the system; no need for shame). <br>
+      Double your bet if you win!</p>
+      <br>  <br>
+    <div id = "game">
+    <label>Type in a number from 1 - 10: &nbsp; </label><input type="text" id="num" style="width: 50px;"><br> <br>
+    <label>Bet:</label> <input type="text" id="bet" style="width:30px;"> <br>
+    <label>Current Money: $<span id="money">100</span> </label>
+    <br><br>
+    <button type="button" id="submit" > Submit </button>
+    <br>
+    <br>
+    <div id="resultCont">
+    <p id="result"></p>
+    <p id="result1"> </p>
+  </div>
+  </div>
+
+    <!-- <textarea id="stat" placeholder="How are you feeling today?" cols="40" rows="5"></textarea>
+    <button type="button" id="submit" > Submit </button>
+
+    <div id="posted">
+      <p id="1"></p>
+      <p id="2"></p>
+      <p id="3"></p>
+    </div> -->
+
+    <!-- <img id="happy" src="img/happy.png" width="180px" />
+    <img id="ok" src="img/average.png" width="180px" />
+    <img id="sad" onClick="sad()" src="img/sad.png" width="200px" />
+
+      <br><br> -->
+
+    <!-- <div id="myProgress">
+      Happy times: <progress id="happyProg" value="0" max="100">
+      </progress><br>
+      Ok times: <progress id="okProg" value="0" max="100">
+      </progress>
+      Sad times: <progress id="sadProg" value="0" max="100">
+      </progress>
+    </div> -->
+<br><br>
+  <button type="button" id="logOutBtn" onClick="window.location.href='index.html';"> Log Out</button>
+    <script src = "scriptWelcome.js"></script>
+  </body>
+  </html>

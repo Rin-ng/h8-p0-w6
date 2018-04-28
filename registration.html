@@ -1,0 +1,29 @@
+<DOCTYPE html>
+  <html>
+  <head></head>
+  <body>
+    <link href="./styleRegis.css" type="text/css" rel="stylesheet" />
+      <h1>Registration Form</h1>
+    <div id= "container">
+  <form id="myForm" action="#"  onSubmit="return validatte();" method="post">
+    <label id = "user"> Username: </label><br>
+    <input type="text" name="userInput" required><br><br>
+
+    <label id = "pass1">Password:</label><br>
+    <input type="password" name="pass1Input" required><br><br>
+
+    <label id = "pass2">Confirm Password:</label><br>
+    <input type="password" name="pass2Input" required><br><br>
+
+    <label id = "email1">Email:</label><br>
+    <input type="text" name="email1Input" required><br><br>
+
+    <label id = "email2">Confirm Email:</label><br>
+    <input type="text" name="email2Input" required><br><br>
+
+    <button type="button" id="submitBtn" value = ""> Submit </button>
+</form>
+</div>
+    <script src = "scriptRegistration.js"></script>
+    </body>
+  </html>

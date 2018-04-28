@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color: lightgray;
+}
+
+#resultCont{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#game{
+
+  background-color: lightsalmon;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+
+}
+
+h3, #intro{
+  text-align: center;
+}
+
+#intro{
+  font-size: 20px;
+}
+h3{
+  font-size: 30px;
+}
+#welcomeUser{
+  text-align: center;
+  font-size: 60px;
+  font-family: fantasy;
+  font-weight: 900;
+}
+
+#logOutBtn{
+  float: right;
+}
+
+label{
+font-weight: bold;
+font-size: 18px;
+}
+button{
+
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: serif;
+
+}

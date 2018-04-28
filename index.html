@@ -1,0 +1,29 @@
+<DOCTYPE html>
+  <html>
+  <head></head>
+  <body>
+    <link href="./styleLogin.css" rel="stylesheet" type="text/css"/>
+      <h1>Log In Form</h1>
+    <div id= "container">
+  <form id="logIn" action="#"  onSubmit="return logIn();" method="post">
+    <label id = "user"> Username: </label><br>
+    <input type="text" name="userInput" required><br><br>
+
+    <label id = "pass1">Password:</label><br>
+    <input type="password" name="passInput" required><br><br>
+
+    <button type="button" id="logInBtn" value = ""> Log In </button>
+    <button type="button" id="signUpBtn" onClick="window.location.href='registration.html';"> Sign Up </button>
+</form>
+<div id="text">
+    <span>Correct info for testing: <br>
+     Username: </span>test <br>
+    <span>Password:</span> Test123!
+    <p id="attempt"> </p>
+</div>
+
+
+</div>
+    <script src = "scriptLogin.js"></script>
+  </body>
+  </html>
